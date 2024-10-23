@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">ASQAS</string>
+    <string name="app_desc">Alarm Scan QR and Shake</string>
+    <string name="start_alarm">Start</string>
+    <string name="stop_alarm">Stop</string>
+    <string name="menu">☰</string>
+    <string name="info">ⓘ</string>
+    <string name="set_alarm_time">Set alarm time</string>
+    <string name="alert_dialog_ok">Done</string>
+    <string name="alert_info_ok">Sure</string>
+    <string name="alert_info_not_ok">Set QR Code</string>
+    <string name="menu_header">Menu</string>
+    <string name="qrcode">QR Code</string>
+    <string name="set_alarm_sound">Alarm sound</string>
+    <string name="open_setting_dialog">></string>
+    <string name="set_snooze_duration">Snooze duration (in minutes)</string>
+    <string name="set_snooze_number">Snooze number</string>
+    <string name="save_qr_code">Save default QR Code to gallery</string>
+    <string name="about">About</string>
+    <string name="read_info">Please read info</string>
+    <string name="warning">Make sure you have prepared a QR Code that has been set to turn off the alarm (either you save it on another device or you print it)\n\nIf you haven\'t set a QR Code or you lost your QR Code, please set it again </string>
+    <string name="make_sure">Do you have the QR Code?</string>
+    <string name="snooze">Snooze</string>
+    <string name="notification_message">You woke up on time\nNow is time for you to do your daily activities\n\nGood luck and have a nice day :)</string>
+    <string name="thanks">Thank you</string>
+    <string name="scan_custom_qr_code">Scan to add custom QR Code</string>
+    <string name="reset_qr_code">Reset QR Code to default</string>
+    <string name="wrong_code">Wrong code!</string>
+    <string name="new_code_added">New code to dismiss alarm added:</string>
+    <string name="tap_to_try_again">Tap to try again!</string>
+    <string name="camera_granted">Camera permission granted</string>
+    <string name="camera_denied">Camera permission denied</string>
+    <string name="alarm_title">Alarm off!</string>
+    <string name="alarm_description">Time to wake up!</string>
+    <string name="alarm_at">%1$s</string>
+    <string name="default_code_added">Default code to dismiss alarm added:</string>
+    <string name="current_dismiss_code">Current Dismiss Code : %1$s</string>
+    <string name="code_added_to_gallery">QR code successfully added to Your gallery, now go and put it somewhere!</string>
+    <string name="code_not_added_to_gallery">Failed to save the QR code to gallery…</string>
+    <string name="code_not_added_to_gallery_version_issue">On Android 11 and 12 this function is temporarily unavailable. Please scan Your own QR code…</string>
+    <string name="cancel_alarm">CANCEL ALARM</string>
+    <string name="preview">Preview</string>
+    <string name="shake">Shake the device to turn off the alarm\n\n</string>
+    <string name="set_alarm">Set your alarm time!</string>
+    <string name="alarm_set">Your alarm is set to:</string>
+    <string name="time_set_minutes">Time left: %1$d min</string>
+    <string name="time_set_hours_minutes">Time left: %1$d h %2$d min</string>
+    <string name="finish_code_added">Congratulation!</string>
+    <string name="shake_count">Shake count</string>
+    <string name="Wakeup">You wake up!</string>
+    <string name="notification_title">Well Done!!!</string>
+    <string name="content_tab_text">This is Tab %1$d</string>
+    <string name="content_tab_about">What is ASQAS?</string>
+    <string name="content_tab_important">IMPORTANT!</string>
+    <string name="content_subtab_important">Fix background work</string>
+    <string name="desc_about">“ASQAS” is a unique alarm application. This app is designed to help you wake up on time in an interesting way, which is by scanning the QR code and shaking your phone to turn off the alarm.\n\nHowever, not just any QR Code will do! Before setting up your first alarm, you should download the default Code Image from the Settings. If you already have your own QR Code, you can scan it - ASQAS will remember it and use it to cancel your alarm!</string>
+    <string name="desc_important">Unfortunately many smartphone manufacturers prefer longer battery life (even if barely noticeable) over properly working applications! Samsung, OnePlus, Huawei, Xiaomi and many others tend to be killing applications while they are working in the background.\n\nASQAS can also suffer this problem! Many smartphone manufacturers kill the app completely along with the alarm that was set via the ASQAS application.\n\nIn order to fix this issue, please, go to <a href="dontkillmyapp.com">dontkillmyapp.com</a> and follow the instructions for Your smartphone - this should help mitigate the “optimizations” carried out by Your operating system.</string>
+    <string name="oh_no">Oh no!!!</string>
+    <string name="looks_like">It looks like your QR code was lost or damaged so the scanner misread your QR code\n\nThat\'s okay, you can re-prepare your QR code for the next alarm\n\nStill, good luck and have a nice day :)</string>
+
+
+    <string-array name="alarm_tones">
+        <item>Default System</item>
+        <item>Gentle Guitar</item>
+        <item>Sunny Day</item>
+        <item>Alarm Clock</item>
+        <item>Analog Watch</item>
+        <item>Air Horn Short</item>
+        <item>Air Horn Long</item>
+        <item>Siren Noise</item>
+    </string-array>
+
+    <string-array name="snooze_durations">
+        <item>10</item>
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="snooze_numbers">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="shake_counts">
+        <item>15</item>
+        <item>10</item>
+        <item>5</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
